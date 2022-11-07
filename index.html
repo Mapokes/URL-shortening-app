@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Shortly URL shortening API</title>
+  </head>
+  <body>
+    <nav>
+      <img id="logo-site" src="./images/logo.svg" alt="logo-img" />
+      <div class="nav-buttons">
+        <div class="nav-left-side">
+          <input type="button" value="Features" />
+          <input type="button" value="Pricing" />
+          <input type="button" value="Resources" />
+        </div>
+        <div class="nav-right-side">
+          <input id="login" type="button" value="Login" />
+          <input id="sign-up" type="button" value="Sign Up" />
+        </div>
+      </div>
+      <img id="mobile-nav" src="/images/icon-hamburger.svg" alt="hamburger-img" />
+    </nav>
+
+    <section class="get-started">
+      <div class="section-left-side">
+        <h1>More than just shorter links</h1>
+        <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+        <input type="button" value="Get Started" />
+      </div>
+      <div class="section-right-side">
+        <img src="./images/illustration-working.svg" alt="working-img" />
+      </div>
+    </section>
+
+    <main class="main-content">
+      <section class="section-top">
+        <header>
+          <div class="user-input">
+            <input type="text" name="user-link" id="user-link" placeholder="Shorten a link here..." />
+            <span class="error-msg">Please add a link</span>
+          </div>
+          <input id="shorten-btn" type="button" value="Shorten It!" />
+        </header>
+        <section class="shortend-links"></section>
+      </section>
+      <section class="section-middle">
+        <h2>Advanced Statistics</h2>
+        <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+      </section>
+      <section class="section-bottom">
+        <div class="cyan-line"></div>
+        <div class="brand" id="stat-brand">
+          <div class="logo">
+            <img src="./images/icon-brand-recognition.svg" alt="brand-img" />
+          </div>
+          <h3>Brand Recognition</h3>
+          <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+        </div>
+        <div class="brand" id="stat-record">
+          <div class="logo">
+            <img src="./images/icon-detailed-records.svg" alt="records-img" />
+          </div>
+          <h3>Detailed Records</h3>
+          <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+        </div>
+        <div class="brand" id="stat-custom">
+          <div class="logo">
+            <img src="./images/icon-fully-customizable.svg" alt="customizable-img" />
+          </div>
+          <h3>Fully Customizable</h3>
+          <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+        </div>
+      </section>
+    </main>
+
+    <section class="get-started-bottom">
+      <h2>Boost your links today</h2>
+      <input type="button" value="Get Started" />
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-left-side">
+          <img src="./images/logo.svg" alt="logo-img" />
+        </div>
+        <div class="footer-middle">
+          <div class="footer-middle-content">
+            <h5>Features</h5>
+            <input type="button" value="Link Shortening" />
+            <input type="button" value="Branded Links" />
+            <input type="button" value="Analytics" />
+          </div>
+          <div class="footer-middle-content">
+            <h5>Resources</h5>
+            <input type="button" value="Blog" />
+            <input type="button" value="Developers" />
+            <input type="button" value="Support" />
+          </div>
+          <div class="footer-middle-content">
+            <h5>Company</h5>
+            <input type="button" value="About" />
+            <input type="button" value="Our Team" />
+            <input type="button" value="Careers" />
+            <input type="button" value="Contact" />
+          </div>
+          <div class="footer-right-side">
+            <button>
+              <img src="./images/icon-facebook.svg" alt="fb-img" />
+            </button>
+            <button>
+              <img src="./images/icon-twitter.svg" alt="twit-img" />
+            </button>
+            <button>
+              <img src="./images/icon-pinterest.svg" alt="pint-img" />
+            </button>
+            <button>
+              <img src="./images/icon-instagram.svg" alt="inst-img" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
