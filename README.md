@@ -1,6 +1,6 @@
 # URL shortening app
 
-This is a solution to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G).
+This is solution by Mapokes to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G).
 
 ## Table of contents
 
@@ -47,5 +47,5 @@ Users are able to:
 ## Author
 
 Solution made by Mapokes
-- Website - https://github.com/Mapokes
-- Frontend Mentor - https://www.frontendmentor.io/profile/Mapokes
+
+- Github - https://github.com/Mapokes
